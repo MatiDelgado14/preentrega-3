@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Simulador de Caminatas</title>
+</head>
+<body>
+    <body>
+        <h1>Simulador de Contador de Kilómetros</h1>
+        <div class="nombre-apellido">
+            <label for="nombreInput">Nombre:</label>
+            <input type="text" id="nombreInput">
+            <label for="apellidoInput">Apellido:</label>
+            <input type="text" id="apellidoInput">
+        </div>
+    
+        <div class="agregar-datos">
+            <label for="diaInput">Día de la semana:</label>
+            <input type="text" id="diaInput">
+            <label for="kilometrosInput">Kilómetros caminados:</label>
+            <input type="number" id="kilometrosInput">
+            <button onclick="agregarDatos()">Agregar</button>
+        </div>
+    
+        <button onclick="mostrarResultados()">Mostrar Resultados</button>
+    
+        <div id="resultados">
+            <h2>Resultados</h2>
+            <p id="totalKilometros"></p>
+            <p id="promedioKilometros"></p>
+            <div id="datosPorDia"></div>
+        </div>
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
