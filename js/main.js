@@ -1,3 +1,4 @@
+
 function mostrarBienvenida() {
     const nombre = document.getElementById('nombreInput').value.trim();
     const apellido = document.getElementById('apellidoInput').value.trim();
@@ -8,9 +9,6 @@ function mostrarBienvenida() {
     }
 
     alert("¡Bienvenido, " + nombre + " " + apellido + "! Este es el simulador de contador de kilómetros.");
-    document.getElementById('nombreInput').disabled = true;
-    document.getElementById('apellidoInput').disabled = true;
-    document.getElementById('formulario').style.display = 'block';
 }
 
 function agregarDatos() {

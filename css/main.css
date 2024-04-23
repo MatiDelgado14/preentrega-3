@@ -38,10 +38,12 @@ h1, h2 {
 button {
     background-color: #ffffff; /* Fondo blanco */
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    background-color: #cccccc; /* Cambio de color al pasar el mouse */
+    background-color: black;
+    color: #ff69b4;
 }
 
 #resultados {
@@ -60,8 +62,25 @@ button#mostrarResultadosBtn {
     background-color: #ffffff;
     cursor: pointer;
     border: none;
+    transition: background-color 0.3s ease;
 }
 
 button#mostrarResultadosBtn:hover {
-    background-color: #cccccc;
+    background-color: black;
+    color: #ff69b4;
+}
+
+/* Estilos para el botón "Guardar" */
+button#guardarBtn {
+    padding: 8px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button#guardarBtn:hover {
+    background-color: black;
+    color: #ff69b4;
 }
